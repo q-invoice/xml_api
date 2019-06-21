@@ -65,14 +65,14 @@ The latest version of our API can be found at https://app.q-invoice.com/api/xml/
 
 Most fields are self-explanatory, other fields we'll explain here. All numerical (quantity, price) fields need to be multiplied by 100.
 
-**calculation_mode
+**calculation_mode**
 Use this field to set the way totals are calculated. Especially when you experience rounding errors between your webshop and q-invoice changing this value might help.
 
-**action
+**action**
 The document action after it has been created. 
 0 = save as draft
 1 = save as PDF
 2 = save as PDF and send per mail
 
-**paid
+**paid**
 1 for paid in full, 0 for unpaid
